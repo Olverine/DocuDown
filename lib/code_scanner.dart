@@ -35,6 +35,7 @@ class CodeScanner {
 
   String getMarkDown() {
     String result = "";
+    result += "# Global\n";
     if(structs.isNotEmpty) {
       result += getMarkDownStructs();
     }

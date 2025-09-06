@@ -1,7 +1,7 @@
 import 'package:docudown/comment.dart';
 import 'package:docudown/parameter.dart';
 
-final RegExp functionPattern = RegExp(r'^([a-zA-Z_][a-zA-Z0-9_]*\s+)+([a-zA-Z_][a-zA-Z0-9_]*)\((.*)\);');
+final RegExp functionPattern = RegExp(r'^\s*([a-zA-Z_][a-zA-Z0-9_]*\s+)+([a-zA-Z_][a-zA-Z0-9_]*)\((.*)\);');
 
 class DDFunction {
   late String returnType;
